@@ -3,8 +3,10 @@ package com.example.retail;
 import java.time.LocalDate;
 
 import lombok.Data;
+import lombok.ToString;
 
 @Data
+@ToString
 public class Client {
     String firstName;
     String lastName;
